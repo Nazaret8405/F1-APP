@@ -10,6 +10,7 @@ namespace Bfree
     {
         public void OpenPanel(GameObject panel)
         {
+            
             if (EasyUIPanelManager.instance != null)
                 if (EasyUIPanelManager.instance.panelBehaviour == EasyUIPanelManager.PanelBehaviour.deactivate)
                 {
